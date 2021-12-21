@@ -1,4 +1,4 @@
-function UnitProfile({data}) {
+function ShopItemFunc({data}) {
   return (
     <div className={"main-content"}>
       <h2>{data.brand}</h2>
@@ -16,4 +16,4 @@ function UnitProfile({data}) {
     </div>
   )
 }
-export default UnitProfile;
+export default ShopItemFunc;
